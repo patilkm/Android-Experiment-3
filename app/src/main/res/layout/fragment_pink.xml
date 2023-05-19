@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#9C0A3C"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Name"
+        android:minHeight="48dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/buttonsend"
+        android:text="@string/send_value_to_fragment_2"
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
